@@ -9,10 +9,6 @@ from selenium import webdriver
 # redirect_uri = 'https://your.redirecturi.com'
 # primary_account_id = 1234567890
 
-token_path = '/Users/tkmapz5/Documents/tickers/token.tk'
-api_key = 'GPLIN2BIQGFVHYAZGJFUY93IXOCAMBDJ'
-redirect_uri = 'http://localhost:8080/'
-primary_account_id = 498551465
 
 c = tda.auth.easy_client(api_key, redirect_uri, token_path,
         webdriver_func=lambda: webdriver.Chrome())
